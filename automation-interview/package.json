@@ -1,0 +1,19 @@
+{
+    "name": "mls-automation-challenge",
+    "version": "1.0.0",
+    "description": "Technical interview task for MLS listing automation using Puppeteer and TypeScript.",
+    "main": "dist/index.js",
+    "scripts": {
+      "start": "tsc && node dist/index.js",
+      "dev": "ts-node src/index.ts"
+    },
+    "dependencies": {
+      "puppeteer": "^24.4.0"
+    },
+    "devDependencies": {
+      "@types/node": "^22.13.4",
+      "ts-node": "^10.9.2",
+      "typescript": "^5.7.3"
+    }
+  }
+  
